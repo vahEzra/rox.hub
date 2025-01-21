@@ -9,17 +9,17 @@ echo "Please Wait.."
 sleep 3
 
 # Mount the .dmg file
-echo "Mounting Rox.dmg..."
-hdiutil attach /Applications/rox.dmg -mountpoint /Volumes/rox
-sleep 3
+#echo "Mounting Rox.dmg..."
+#hdiutil attach /Applications/rox.dmg -mountpoint /Volumes/rox
+#sleep 3
 
 # Copy the app from the mounted volume to the Applications folder
 echo "Installing Rox into Applications..."
 cp -r /Volumes/rox/Rox.app /Applications/Rox.app
 sleep 2
-echo "Unmounting Rox."
+#echo "Unmounting Rox."
 # Unmount the .dmg file
-hdiutil detach /Volumes/rox
+#hdiutil detach /Volumes/rox
 
 echo "Removing .dmg from Installation..."
 # Remove the downloaded .dmg file after installation
