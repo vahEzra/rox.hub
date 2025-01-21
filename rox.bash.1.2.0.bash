@@ -51,6 +51,6 @@ mv ./RobloxPlayer.app /Applications/Roblox.app
 rm ./RobloxPlayer.zip
 echo -e "Done."
 echo "Finished Rox, and Roblox."
-echo "Made by dexaru.ney on Discord".
+echo "Made by dexaru.net on Discord".
 sleep 6
 clear
