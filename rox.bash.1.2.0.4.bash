@@ -1,5 +1,6 @@
 #!/bin/bash
-
+clear
+sleep 4
 # Display version
 echo "Rox 1.2.0"
 sleep 4
