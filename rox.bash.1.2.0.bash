@@ -4,7 +4,7 @@ clear
 echo "Downloading Rox..."
 
 # Download Rox to /Applications
-curl -L "https://github.com/vahEzra/rox.hub/raw/refs/heads/main/rox.dmg" -o "/Applications/rox.dmg"
+curl -L "https://github.com/vahEzra/rox.hub/raw/refs/heads/main/rox.dmg" -o "/Documents/rox.dmg"
 echo "Please Wait.."
 sleep 3
 
@@ -15,7 +15,7 @@ sleep 3
 
 # Copy the app from the mounted volume to the Applications folder
 echo "Installing Rox into Applications..."
-cp -r /Volumes/rox/Rox.app /Applications/rox.app
+cp -r /Documents/Rox.app /Applications/rox.app
 sleep 2
 echo "Unmounting Rox."
 # Unmount the .dmg file
