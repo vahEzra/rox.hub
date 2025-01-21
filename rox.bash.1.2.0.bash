@@ -15,11 +15,11 @@ sleep 3
 
 # Copy the app from the mounted volume to the Applications folder
 echo "Installing Rox into Applications..."
-cp -r /Volumes/rox/Rox.app /Applications/Rox.app
+cp -r /Volumes/rox/Rox.app /Applications/rox.app
 sleep 2
-#echo "Unmounting Rox."
+echo "Unmounting Rox."
 # Unmount the .dmg file
-#hdiutil detach /Volumes/rox
+hdiutil detach /Applications/rox.app
 
 echo "Removing .dmg from Installation..."
 # Remove the downloaded .dmg file after installation
@@ -29,7 +29,7 @@ sleep 3
 # Clone Rox to Documents folder
 echo "Cloning Rox to Documents..."
 [ -d "$HOME/Documents" ] || mkdir "$HOME/Documents"
-cp -r /Applications/Rox.app "$HOME/Documents/Rox.app"
+cp -r /Applications/rox.app "$HOME/Documents/rox.app"
 
 echo "Rox Experience Download and Install Complete."
 
