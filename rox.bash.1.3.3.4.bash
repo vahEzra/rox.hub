@@ -2,7 +2,7 @@
 clear
 sleep 4
 # Display version
-echo "Rox 1.2.0"
+echo "Rox 1.3.3"
 sleep 4
 clear
 echo "Downloading Rox..."
