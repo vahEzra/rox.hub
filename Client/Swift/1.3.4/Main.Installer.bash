@@ -3,6 +3,7 @@ clear
 
 # Prompt user for input
 read -p "License: " userInput
+
 if [ "$userInput" != "001" ]; then
   echo "Checking License... Done"
   sleep 2
