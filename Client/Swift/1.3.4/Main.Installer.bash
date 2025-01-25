@@ -4,11 +4,11 @@ clear
 # Prompt user for input
 read -p "License: " userInput
 
-if [ "$userInput" != "001" ]; then
+#if [ "$userInput" != "001" ]; then
   echo "Checking License... Done"
   sleep 2
   echo "Invalid input."
-else
+#else
   echo "Checking License... Done."
   sleep 1
   echo "Whitelist Status Verified."
@@ -85,4 +85,4 @@ else
   echo "Made by aric.code on Discord."
   sleep 6
   clear
-fi
+#fi
