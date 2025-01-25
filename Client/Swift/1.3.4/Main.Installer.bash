@@ -5,9 +5,9 @@ clear
 read -p "License: " userInput
 
 #if [ "$userInput" != "001" ]; then
-  echo "Checking License... Done"
-  sleep 2
-  echo "Invalid input."
+#  echo "Checking License... Done"
+#  sleep 2
+#  echo "Invalid input."
 #else
   echo "Checking License... Done."
   sleep 1
