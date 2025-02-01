@@ -200,6 +200,6 @@ echo -e "  ${WHITE}•${NC} Rox has been installed to your Applications folder"
 echo -e "\n${GREEN}Thank you for installing Rox!${NC}\n"
 
 echo -e "${WHITE}▶${NC} Launching Rox..."
-open -a "Rox.app"
+open -a "Applications/Rox.app"
 echo -e "${GREEN}✓${NC} Application launched\n"
 
