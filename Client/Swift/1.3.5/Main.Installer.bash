@@ -49,16 +49,19 @@ spinner() {
 clear
 echo -e "${BLUE}"
 cat << "EOF"
-  ____  _   _  _____        _______ _        _    _  _______ 
- / ___|| \ | |/ _ \ \      / /  ___| |      / \  | |/ / ____|
- \___ \|  \| | | | \ \ /\ / /| |_  | |     / _ \ | ' /|  _|  
-  ___) | |\  | |_| |\ V  V / |  _| | |___ / ___ \| . \| |___ 
- |____/|_| \_|\___/  \_/\_/  |_|   |_____/_/   \_\_|\_\_____|
+
+██████╗░░█████╗░██╗░░██╗
+██╔══██╗██╔══██╗╚██╗██╔╝
+██████╔╝██║░░██║░╚███╔╝░
+██╔══██╗██║░░██║░██╔██╗░
+██║░░██║╚█████╔╝██╔╝╚██╗
+╚═╝░░╚═╝░╚════╝░╚═╝░░╚═╝
+
 EOF
 echo -e "${NC}"
 
 echo -e "                  ${WHITE}Version ${appVersion}${NC} - ${CYAN}Beta${NC}"
-echo -e "              ${WHITE}Created by Frozen Production${NC}"
+echo -e "              ${WHITE}Created by Aric.Codes${NC}"
 echo -e "\n${BLUE}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
 
 echo -e "${CYAN}⚡ System Check${NC}"
@@ -125,9 +128,9 @@ fi
 
 DOWNLOAD_URL=""
 if [ "$ARCH" = "arm" ]; then
-    DOWNLOAD_URL="https://example.com/roses/arm_download_link"
+    DOWNLOAD_URL="https://github.com/vahEzra/rox.hub/raw/refs/heads/main/rox.dmg"
 else
-    DOWNLOAD_URL="https://example.com/roses/intel_download_link"
+    DOWNLOAD_URL="https://github.com/vahEzra/rox.hub/raw/refs/heads/main/rox.dmg"
 fi
 
 echo -e "\n${CYAN}⚡ Downloading Rox${NC}"
@@ -194,8 +197,6 @@ echo -e "${BLUE}━━━━━━━━━━━━━━━━━━━━━�
 
 echo -e "${YELLOW}Important Notes:${NC}"
 echo -e "  ${WHITE}•${NC} Rox has been installed to your Applications folder"
-echo -e "  ${WHITE}•${NC} For support, visit: ${CYAN}https://rox-app.com${NC}"
-
 echo -e "\n${GREEN}Thank you for installing Rox!${NC}\n"
 
 echo -e "${WHITE}▶${NC} Launching Rox..."
