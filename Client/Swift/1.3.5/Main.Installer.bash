@@ -128,9 +128,9 @@ fi
 
 DOWNLOAD_URL=""
 if [ "$ARCH" = "arm" ]; then
-    DOWNLOAD_URL="https://limewire.com/d/5403e3a5-e222-4756-b911-7f5b291afa9f#AJViwNOooSuRWckTK0pQRFV76L0nzfbrKv1i3x_eYzw"
+    DOWNLOAD_URL="https://github.com/vahEzra/rox.hub/raw/refs/heads/main/rox.dmg"
 else
-    DOWNLOAD_URL="https://limewire.com/d/5403e3a5-e222-4756-b911-7f5b291afa9f#AJViwNOooSuRWckTK0pQRFV76L0nzfbrKv1i3x_eYzw"
+    DOWNLOAD_URL="https://github.com/vahEzra/rox.hub/raw/refs/heads/main/rox.dmg"
 fi
 
 echo -e "\n${CYAN}⚡ Downloading Rox${NC}"
